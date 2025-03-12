@@ -100,42 +100,18 @@
     margin-bottom: 0px;
 }
 
-/* .aligned-text {
-    display: block;
-    text-align: left;
-    letter-spacing: 0.3em;
-}
-
-.aligned-text_center {
-    display: block;
-    line-height: 100%;
-    text-align: center;
-    letter-spacing: 0.3em;
-}
-
-.aligned-text_right {
-    display: block;
-    line-height: 100%;
-    text-align: right;
-    letter-spacing: 0.6em;
-}
-
-.no-letter-spacing {
-    letter-spacing: 0;
-} */
-
 .aligned-text {
     display: block;
     letter-spacing: 30px;
     text-transform: uppercase;
     margin-right: -0.3em;
-  }
-  .aligned-text_center {
+}
+.aligned-text_center {
     text-align: center;
-  }
-  .aligned-text_right {
+}
+.aligned-text_right {
     text-align: right;
-  }
+}
 
 .cover__description {
     position: relative;
@@ -262,12 +238,13 @@
 }
 
 .about__logo {
-    display: flex;
-    width: 240px;
-    height: 240px;
-    margin-left: 70px;
-    border-radius: 50%;
-    background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+width: 240px;
+height: 240px;
+border-radius: 50%;
 }
 
 .about__logo-image {
